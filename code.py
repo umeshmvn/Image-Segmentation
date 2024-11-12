@@ -27,10 +27,10 @@ def plot_image_and_histogram(image_path, title, histogram_color, save_prefix):
     ax2.set_ylabel("Number of Pixels")
     ax2.set_xlim(0, 255)
 
-    # To save the picture
+    # It Saves the picture
     fig.savefig(f'{save_prefix}_Histogram.jpg')
 
-    # to show the plot
+    # Inorder to show the plot
     plt.show()
 
 """
